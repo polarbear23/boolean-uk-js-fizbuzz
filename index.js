@@ -12,8 +12,8 @@ function replaceNumberWithWord(count, divider, word){
 
 while(count <= maxNumber){
 
-    replaceNumberWithWord(count, 3, "fizz"); 
-    replaceNumberWithWord(count, 5, "buzz");
+    replaceNumberWithWord(count, 3, "Fizz"); 
+    replaceNumberWithWord(count, 5, "Fuzz");
     replaceNumberWithWord(count, 7, "Fish");
     replaceNumberWithWord(count, 8, "Bus");
 
