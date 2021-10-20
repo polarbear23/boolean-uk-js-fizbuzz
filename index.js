@@ -28,14 +28,14 @@ while(count <= maxNumber){
 }
 
 function gcd(a, b) {
-    return !b ? a : gcd(b, a % b);
+    return !b ? a : gcd(b, a % b); // calculate greatest common divider recursive function works down until b = 0
 }
 
 function lcm(a, b) {
-    return (a * b) / gcd(a, b);   
+    return (a * b) / gcd(a, b);    // calculate lowest common multiple
 }
 
-function lcmOfRange(arr){
+function lcmOfRange(arr){ //calculates a lcm of a range of numbers passed into the function using an array
     multiple = arr[0];
     for(let i = 0; i< arr.length; i++){
         multiple = lcm(multiple, arr[i]);
